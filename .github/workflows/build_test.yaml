@@ -10,4 +10,4 @@ on:
 
 jobs:
   build:
-    uses: austenstone/.github/.github/workflows/node.js.yml@main
+    uses: austenstone/.github/.github/workflows/node.js.yml@60b5a83b1ceffa3305c5f37bd066a59946e663bc # main

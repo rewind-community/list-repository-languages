@@ -2,13 +2,13 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   schedule:
     - cron: '33 14 * * 0'
 
 jobs:
   codeql:
     name: CodeQL
-    uses: austenstone/.github/.github/workflows/codeql.yml@main
+    uses: austenstone/.github/.github/workflows/codeql.yml@60b5a83b1ceffa3305c5f37bd066a59946e663bc # main
