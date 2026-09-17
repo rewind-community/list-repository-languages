@@ -28,5 +28,5 @@ outputs:
     description: The languages of the repository as a JSON array
 
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
